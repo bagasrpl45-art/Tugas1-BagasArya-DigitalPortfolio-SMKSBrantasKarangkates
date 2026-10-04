@@ -1,0 +1,100 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #0f172a; /* Warna latar gelap */
+  color: #e2e8f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.kartu-profil {
+  background-color: #1e293b;
+  border-radius: 16px;
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+  border: 1px solid #334155;
+}
+
+h1 {
+  font-size: 28px;
+  color: #ffc60f; /* Kuning cerah */
+  margin-bottom: 6px;
+}
+
+.tagline {
+  color: #9413b8;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+h2{
+  font-size: 16px;
+  color: #ffc60f;
+  margin: 20px 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+ui {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+.kontak {
+  margin-top: 24px;
+  padding: 12px;
+  background: #0f172a;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #94a3b8
+}
+a {
+  color: #ffc60f;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.kartuprofil:hover {
+  border-color: #ffc60f;
+  transition: border-color 0.3s ease;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background-color: #1e293b;
+    color: #fbbf24;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #334155;
+    transition: all 0.2s ease;
+    width: fit-content;
+}
+
+.social-link.youtube:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+    border-color: #ff0000;
+    transform: translateY(-2px);
+}
+
+.social-icon {
+    flex-shrink: 0;
+}
